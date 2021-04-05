@@ -1,0 +1,117 @@
+
+
+#background-login {
+    background-image: url('./Photos/Logo.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.login-form {
+    width: 422px;
+  }
+  .login-form-forgot {
+    float: right;
+  }
+  .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  
+
+.login-form {
+    width: 422px;
+  }
+
+
+.login-form-forgot {
+    float: right;
+  }
+
+.ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  
+#login-button {
+    width: 277px;
+    background-color: #0F5CDA;
+    color: white;
+    border-radius: 8px;
+    height: 55px;
+    transition-duration: 0.4s;
+    cursor: pointer
+  }
+
+#login-button:hover {
+
+      background-color: #002258;      
+  }
+
+#login-div {
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 300px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 53px;
+    width: 248px;
+    margin-left: 70px;
+}
+.input-login {
+    border-radius: 8px;
+    height: 55px;
+    
+}
+.input-login input {
+  background-color: #F2F6FE !important;
+}
+
+@media only screen and (max-width: 1130px) {
+  #login-div {
+      top: 80px !important;
+      left: 120px !important;
+      width: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 986px) {
+  #login-div {
+      top: 80px !important;
+      left: 60px !important;
+      width: 90px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #login-div {
+      top: 80px !important;
+      left: 350px !important;
+      width: 90px !important;
+  }
+  #background-login {
+    background: none;
+    background-color: white;
+  }
+  .login-form {
+    width: 250px !important;
+  }
+
+  #login-button {
+    width: 180px;
+  }
+
+.logo {
+    margin-bottom: 53px;
+    width: 248px;
+    margin-left: 0.1px
+}
+
+}

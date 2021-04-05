@@ -1,0 +1,63 @@
+{
+  "name": "bitiruvchi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "ant-table-extensions": "^1.1.7",
+    "antd": "^4.9.4",
+    "axios": "^0.21.1",
+    "file-saver": "^2.0.5",
+    "material-ui-phone-number": "^2.2.6",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-file-input": "^0.2.5",
+    "react-highlight-words": "^0.17.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-json-to-csv": "^1.0.4",
+    "react-lineto": "^3.2.0",
+    "react-moment": "^1.1.1",
+    "react-papaparse": "^3.11.1",
+    "react-phone-input-2": "^2.13.9",
+    "react-phone-number-input": "^3.1.8",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "reqwest": "^2.0.5",
+    "web-vitals": "^0.2.4",
+    "xlsx": "^0.16.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "."
+}

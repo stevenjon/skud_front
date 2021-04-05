@@ -1,0 +1,10 @@
+export const GET_HISOBOT = "GET_HISOBOT"
+export const GET_SINGLEH = "GET_SINGLEH"
+export const GET_SHAHAR_TALIM = "GET_SHAHAR_TALIM";
+export const SET_LOADING = "SET_LOADING"
+export const SET_HISOBOT_STATUS = "SET_HISOBOT_STATUS"
+export const GET_MAKTABLAR = "GET_MAKTABLAR"
+export const SET_SEC = "SET_SEC"
+export const GET_SINGLE_MAKTAB = "GET_SINGLE_MAKTAB"
+export const SET_MAKTAB_ID = "SET_MAKTAB_ID"
+export const SET_YIL = "SET_YIL"

@@ -1,0 +1,5 @@
+export const SET_LOADING = "SET_LOADING"
+export const GET_MAKTABLAR = "GET_MAKTABLAR"
+export const GET_USERS = "GET_USERS"
+export const GET_MUTA = "GET_MUTA"
+export const GET_YILLAR = "GET_YILLAR"
